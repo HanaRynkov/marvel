@@ -1,0 +1,22 @@
+.word {
+    display: flex ;
+}
+.letter {
+    margin-left: 1vw;
+    background-color: black;
+    color: black;
+    font-size: 18px;
+    line-height: 36px;
+    padding: 0 4px;
+    width: 4vw;
+    text-transform: uppercase;
+}
+
+.answer_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 24px 12px;
+    gap: 8px;
+}
